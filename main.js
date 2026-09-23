@@ -134,4 +134,17 @@ document.addEventListener('DOMContentLoaded', () => {
   animElements.forEach(el => {
     observer.observe(el);
   });
+
+  // 5. Easter Egg (Jingle)
+  let easterEggKeys = "";
+  document.addEventListener('keydown', (e) => {
+    easterEggKeys += e.key;
+    if (easterEggKeys.length > 20) {
+      easterEggKeys = easterEggKeys.slice(-20);
+    }
+    if (easterEggKeys.endsWith("13420Enter")) {
+      new Audio('midia/jingle_chase.mp3').play();
+      easterEggKeys = "";
+    }
+  });
 });

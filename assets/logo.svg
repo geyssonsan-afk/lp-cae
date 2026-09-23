@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <rect width="600" height="200" fill="#121214" rx="16"/>
+  <!-- Accent bar -->
+  <rect x="30" y="30" width="8" height="140" fill="#ff2a3b" rx="4"/>
+  <text x="55" y="100" font-family="'Space Grotesk', 'Helvetica Neue', sans-serif" font-weight="800" font-size="52" fill="#ffffff">
+    Caê <tspan fill="#ff2a3b">Traven</tspan>
+  </text>
+  <text x="58" y="140" font-family="'Space Grotesk', 'Helvetica Neue', sans-serif" font-weight="700" font-size="20" fill="#e5a000" letter-spacing="4">
+    UHURU SELECTOR
+  </text>
+  <text x="58" y="165" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="14" fill="#a0aec0">
+    Pré-Candidato a Deputado Estadual • PT-PR
+  </text>
+  <!-- Decorative badge -->
+  <circle cx="530" cy="100" r="45" fill="#1a1e26" stroke="#00b36c" stroke-width="3"/>
+  <path d="M530 70 L530 130 M500 100 L560 100" stroke="#ff2a3b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="530" cy="100" r="22" fill="#00b36c"/>
+  <circle cx="530" cy="100" r="10" fill="#e5a000"/>
+</svg>
